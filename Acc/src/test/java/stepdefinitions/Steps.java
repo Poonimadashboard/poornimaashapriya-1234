@@ -54,6 +54,7 @@ public class Steps
 		String expected_title = "Amazon Sign-In";
 		Assert.assertEquals(expected_title,driver.getTitle());
 		System.out.println("home page is displayed"); 
+		System.out.println("execution completed"); 
 	}
 
 }
